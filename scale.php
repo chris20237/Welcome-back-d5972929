@@ -1,9 +1,7 @@
 <?php
 
-$readline = readline();
-$boom = explode(" ", $readline);
 
-if ($boom[0] == $boom[1]) {
+if ($argv[1] == $argv[2]) {
     echo "In balans";
 } else {
     echo "Niet in balans";
